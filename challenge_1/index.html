@@ -1,2 +1,41 @@
+<html>
+  <head>
+  <script src="./app.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+  <div class="container">
+   <h1>Tic Tac Toe Game!</h1>
+     <div class="board" id="board">
+       <table>
+         <colgroup>
+           <col span="3">
+         </colgroup>
+         <tr class="firstline">
+          <td id = '1' onclick='tdclick(this.id)' ></td>
+          <td id = '2' onclick='tdclick(this.id)'></td>
+          <td id = '3' onclick='tdclick(this.id)'></td>
+         </tr>
+         <tr class="secondline">
+          <td id = '4' onclick='tdclick(this.id)'></td>
+          <td id = '5' onclick='tdclick(this.id)'></td>
+          <td id = '6' onclick='tdclick(this.id)'></td>
+         </tr>
+         <tr class="lastline">
+          <td id = '7' onclick='tdclick(this.id)'></td>
+          <td id = '8' onclick='tdclick(this.id)'></td>
+          <td id = '9' onclick='tdclick(this.id)'></td>
+        </tr>
+       </table>
+      </div>
+      <div winning-message></div>
+      <button onclick="reset_game()">Reset Game</button>
+   </div>
+
+  </body>
+</html>
+
+
 
 
