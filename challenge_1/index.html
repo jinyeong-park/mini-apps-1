@@ -12,24 +12,38 @@
          <colgroup>
            <col span="3">
          </colgroup>
-         <tr class="firstline">
-          <td id = '1' onclick='tdclick(this.id)' ></td>
-          <td id = '2' onclick='tdclick(this.id)'></td>
-          <td id = '3' onclick='tdclick(this.id)'></td>
+         <!-- <tr class="firstline">
+          <td id = '[0][0]' onclick='cellclick(this.id)' ></td>
+          <td id = '[0][1]' onclick='cellclick(this.id)'></td>
+          <td id = '[0][2]' onclick='cellclick(this.id)'></td>
          </tr>
          <tr class="secondline">
-          <td id = '4' onclick='tdclick(this.id)'></td>
-          <td id = '5' onclick='tdclick(this.id)'></td>
-          <td id = '6' onclick='tdclick(this.id)'></td>
+          <td id = '[1][0]' onclick='cellclick(this.id)'></td>
+          <td id = '[1][1]' onclick='cellclick(this.id)'></td>
+          <td id = '[1][2]' onclick='cellclick(this.id)'></td>
          </tr>
          <tr class="lastline">
-          <td id = '7' onclick='tdclick(this.id)'></td>
-          <td id = '8' onclick='tdclick(this.id)'></td>
-          <td id = '9' onclick='tdclick(this.id)'></td>
+          <td id = '[2][0]' onclick='cellclick(this.id)'></td>
+          <td id = '[2][1]' onclick='cellclick(this.id)'></td>
+          <td id = '[2][2]' onclick='cellclick(this.id)'></td> -->
+          <tr class="firstline">
+            <td id = '0' onclick='cellclick(this.id)' ></td>
+            <td id = '1' onclick='cellclick(this.id)'></td>
+            <td id = '2' onclick='cellclick(this.id)'></td>
+           </tr>
+           <tr class="secondline">
+            <td id = '3' onclick='cellclick(this.id)'></td>
+            <td id = '4' onclick='cellclick(this.id)'></td>
+            <td id = '5' onclick='cellclick(this.id)'></td>
+           </tr>
+           <tr class="lastline">
+            <td id = '6' onclick='cellclick(this.id)'></td>
+            <td id = '7' onclick='cellclick(this.id)'></td>
+            <td id = '8' onclick='cellclick(this.id)'></td>
         </tr>
        </table>
       </div>
-      <div winning-message></div>
+      <h3 class="game--status"></div>
       <button onclick="reset_game()">Reset Game</button>
    </div>
 
