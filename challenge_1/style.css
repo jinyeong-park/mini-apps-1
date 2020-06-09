@@ -4,7 +4,7 @@
 }
 div.container {
   display: inline;
-  align-items: center;
+  text-align: center;
   justify-content: center;
 
 }
@@ -19,6 +19,7 @@ div.container {
 } */
 
 table {
+  align-items: center;
   table-layout: fixed;
   width: 20%;
   border-collapse: collapse;

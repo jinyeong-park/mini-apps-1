@@ -2,30 +2,18 @@
   <head>
   <script src="./app.js"></script>
   <link rel="stylesheet" href="style.css" />
-  <title>Tic Tac Toe Game</title>
+  <title>Welcome to Jin's Tic Tac Toe Game</title>
   </head>
   <body>
   <div class="container">
-   <h1>Tic Tac Toe Game!</h1>
+   <h1>Welcome to Jin's Tic Tac Toe Game!</h1>
      <div class="board" id="board">
-       <table>
+       <!-- <span id='player1'>PlayerX</span>
+       <span id='player2'>PlayerO</span> -->
+       <table align='center'>
          <colgroup>
            <col span="3">
          </colgroup>
-         <!-- <tr class="firstline">
-          <td id = '[0][0]' onclick='cellclick(this.id)' ></td>
-          <td id = '[0][1]' onclick='cellclick(this.id)'></td>
-          <td id = '[0][2]' onclick='cellclick(this.id)'></td>
-         </tr>
-         <tr class="secondline">
-          <td id = '[1][0]' onclick='cellclick(this.id)'></td>
-          <td id = '[1][1]' onclick='cellclick(this.id)'></td>
-          <td id = '[1][2]' onclick='cellclick(this.id)'></td>
-         </tr>
-         <tr class="lastline">
-          <td id = '[2][0]' onclick='cellclick(this.id)'></td>
-          <td id = '[2][1]' onclick='cellclick(this.id)'></td>
-          <td id = '[2][2]' onclick='cellclick(this.id)'></td> -->
           <tr class="firstline">
             <td id = '0' onclick='cellclick(this.id)' ></td>
             <td id = '1' onclick='cellclick(this.id)'></td>
@@ -43,8 +31,10 @@
         </tr>
        </table>
       </div>
-      <h3 class="game--status"></div>
-      <button onclick="reset_game()">Reset Game</button>
+      <h3 id="status"></h3>
+      <div align='center'>
+        <button onclick="reset_game()">Reset Game</button>
+      </div>
    </div>
 
   </body>
