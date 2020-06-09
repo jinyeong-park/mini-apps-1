@@ -8,15 +8,7 @@ div.container {
   justify-content: center;
 
 }
-/*
-.board {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: repeat(3, auto)
-} */
+
 
 table {
   align-items: center;
@@ -31,13 +23,6 @@ table {
 th, td {
   padding: 30px;
 }
-
-/* tr.firstline {
-  border-bottom: 3px solid black;
-}
-tr.secondline {
-  border-bottom: 3px solid black;
-} */
 
 tr {
   border-bottom: 3px solid black;
